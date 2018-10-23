@@ -284,6 +284,10 @@ body {
     margin-top: 20px;
     right: 30px;
     bottom: 20px;
+    padding: 4px;
+    cursor: pointer;
+    color: lightgrey;
+    z-index: 999;
 }
 
 /* @media screen and (max-width:1200px) {
