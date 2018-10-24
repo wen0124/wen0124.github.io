@@ -150,66 +150,93 @@ body {
 
 /*  */
 .info-hover_1{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
-    background-image: url("../img/top.jpg");
-    background-position: center center;
+    background-image: url("../img/top.jpg"); 
 }
 
 .info-hover_2{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
     background-image: url("../img/pants.jpg");
-    background-position: center center;
 }
 
 .info-hover_3{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
     background-image: url("../img/dress.jpg");
-    background-position: center center;
 }
 
 .info-hover_4{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
     background-image: url("../img/coat.jpg");
-    background-position: center center;
 }
 
 .info-hover_5{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
     background-image: url("../img/acc.jpg");
-    background-position: center center;
 }
 
 .info-hover_6{
-    position: relative;
-    max-width: 350px;
-    height: 350px;
     background-image: url("../img/legging.jpg");
-    background-position: center center;
 }
 
 .display_message_group{
     position: relative;
+    max-width: 350px;
     height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-color: #dfe8f3;
     z-index: 1;
     line-height: 360px;
     opacity: 0;
     font-size: 20px;
     transition: 1s;
+    
 }
+
+@media screen and (max-width: 992px) {
+    .display_message_group{
+        max-width: 150px;
+        height: 150px;
+        /* background-position: 50px  50px; */
+    }
+
+    .info-hover_1{
+        background-position: 50%  50%;
+        background-image: url("../img/top-sm.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .info-hover_2{
+        background-position: 50%  50%;
+        background-image: url("../img/pants-sm.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .info-hover_3{
+        background-position: 50%  50%;
+        background-image: url("../img/dress-sm.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .info-hover_4{
+        background-position: 50%  50%;
+        background-image: url("../img/coat-sm.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .info-hover_5{
+        background-position: 50%  50%;
+        background-image: url("../img/acc-sm.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .info-hover_6{
+        background-position: 50%  50%;
+        background-image: url("../img/legging-sm.jpg");
+        background-repeat: no-repeat;
+    }
+}
+
+
 .line-style a{
     text-decoration: none !important;
 }
+
 .info-hover:hover .display_message_group{
 
     opacity: 0.5;
