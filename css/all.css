@@ -105,6 +105,13 @@ body {
     margin-top: 50px;
 }
 /* 活動訊息 */
+.section_container hr{
+    color: #fff;
+    size:10;
+    width: 100px;
+    text-align: center;
+}
+
 .container-img {
     /* display: flex;
     justify-content: space-around; */
@@ -137,7 +144,7 @@ body {
 .section_info hr{
     color: #fff;
     size:10;
-    width: 700px;
+    width: 100px;
     text-align: center;
 }
 
@@ -178,7 +185,7 @@ body {
     position: relative;
     max-width: 350px;
     height: 350px;
-    background-image: url("../img/dress.jpg");
+    background-image: url("../img/acc.jpg");
     background-position: center center;
 }
 
@@ -186,7 +193,7 @@ body {
     position: relative;
     max-width: 350px;
     height: 350px;
-    background-image: url("../img/acc.jpg");
+    background-image: url("../img/legging.jpg");
     background-position: center center;
 }
 
@@ -241,6 +248,13 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+
+.swiper-slide a{
+    width: 100%;
+}
+.swiper-slide img{
+    width: 75%;
 }
 
 /* .zoom-style {
